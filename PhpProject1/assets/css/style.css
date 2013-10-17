@@ -1,0 +1,437 @@
+@CHARSET "ISO-8859-1";
+
+/**********************************
+* HEADER
+***********************************/
+#header {
+	margin:auto;
+	height: 100px;
+	background-image:url(../images/headerBgd.jpg); 
+	
+	box-shadow: 0 4px 10px #333;			/* @TODO: compatibilité */
+}
+#logo {
+	display: block;
+	width: 260px;
+	margin: auto;
+	padding: 0;
+}
+
+#compteHeader {
+	width: 250px;
+	height: 83px;
+	margin-top: -100px;
+	margin-right: 50px;
+	padding-top: 17px;
+}
+#compteHeader .input {
+	width: 130px;
+	height: 20px;
+	margin-bottom: 14px;
+	padding-left: 10px;
+	padding-top: 4px;
+	color: #484848;
+	font-style: italic;
+	background: #c7ccd6;
+	border: 1px;
+	
+	border-radius: 4px;						/* @TODO: compatibilité */
+	box-shadow:inset 0 2px 5px #000;
+}
+#compteHeader .submit {
+	width: 46px;
+	height: 62px;
+	margin-right: 25px;
+	margin-top: -38px;
+	background: #79d177;
+	border: none;
+	color: #FFF;
+	text-shadow: 0 1px 1px #000;
+	font-size: 18px;
+	font-weight: bold;
+	
+	border-radius: 4px;						/* @TODO: compatibilité */
+	box-shadow: 0 0 10px #333;
+	float: right;
+}
+#compteHeader .submit:HOVER {
+	background: #4eaa4b;
+}
+#infoCompte p {
+	margin:0;
+	padding:0;
+	margin-right: 15px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: #FFF;
+}
+#infoCompte a {
+	
+	margin-left: 10px;
+	font-style: none;
+	font-size: 12px;
+	color: #000;
+}
+
+/**********************************
+* MENU
+***********************************/
+#menu{
+	height: 50px;
+	margin:auto;
+	padding: 0px;
+	background-image: url(../images/menuBgd.jpg);
+	
+	box-shadow: 0 4px 10px #333;	
+}
+#menu ul {
+	display: table;
+	height: 50px;
+	margin: auto;
+}
+#menu li {
+	display: block;
+	height: 37px;
+	margin: auto;
+	padding: 0px;
+	padding-top: 13px;
+	padding-left: 50px;
+}
+#menu a {
+	display: block;
+	height: 50px;
+	margin: auto;
+	margin-right: 20px;
+	padding: 0px;
+	font-family: Satellite;
+	font-size: 22px;
+	text-decoration: none;
+	color: #FFF;	
+}
+#menu a:hover {
+	text-decoration: underline;
+}
+
+/**********************************
+* CONTENU
+***********************************/
+#contenu {
+	margin: auto;
+	font-family: "Arial";
+}
+
+/**********************************
+* FOOTER
+***********************************/
+#footer {
+	height:25px;
+	margin:auto;
+	background: #33F;
+}
+
+/**********************************
+* ACCUEIL
+***********************************/
+#accueil {
+	width: 1024px;
+	margin: auto;
+}
+#inscription {
+	width: 520px;
+	margin: auto;
+}
+#inscription h3 {
+	text-align: center;
+}
+#inscription .input {
+	width: 200px;
+	height: 25px;
+	margin-top: -7px;
+}
+
+/**********************************
+* DASHBOARD
+***********************************/
+#dashboard {
+	width: 1024px;
+	margin: auto;
+	padding-top: 20px;
+}
+#dashboard p {
+	margin: 0;
+	padding: 0;
+}
+#dashboard h1 {
+	margin:0;
+	padding:0;
+	font-size: 26px;
+	text-align: center;
+}
+
+.dashbox {
+	margin: 15px;
+	border-radius: 5px 5px 5px 5px;
+	
+	box-shadow: 2px 2px 1px #444;
+}
+
+.boxTitle {
+	height: 25px;
+	margin: 0;
+	padding: 0;
+	padding-top: 3px;
+	background: #AAF;
+	border-bottom: 1px solid #AAA;
+	
+	border-radius: 5px 5px 0 0;
+}
+.boxTitle h2 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+}
+.boxContent {
+	padding: 10px;
+	background: #CCF;
+	font-size: 12px;
+	
+	border-radius: 0 0 5px 5px;
+}
+#dashboard table {
+	margin: auto;
+	margin-top: 20px;
+	background: rgba(255, 255, 255, 0.5);
+	border-collapse: collapse;
+	
+	box-shadow: 0 0 5px #000;
+}
+#dashboard th {
+	height: 30px;
+	padding: 5px;
+}
+#dashboard tr:nth-child(2n) {
+	background-color: rgba(220, 220, 255, 0.5);
+	padding:1px;
+}
+#dashboard tr:nth-child(2n+1) {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding:1px;
+}
+#dashboard td {padding: 5px;}
+
+.switch {
+	display: block;
+	width: 110px;
+	height: 30px;
+	text-align: center;
+	background: #888;
+	
+	border-radius: 4px;
+	box-shadow: inset 0 3px 5px #333;
+}
+.switch a {
+	display: block;
+	width: 55px;
+	height: 23px;
+	padding-top: 7px;
+	color: #FFF;
+	text-decoration: none;
+	
+	border-radius: 4px;
+}
+.switch a:hover, .switch .current {
+	background: #55F;
+	margin-top: -2px;
+	height: 25px;
+	padding-top: 5px;
+	box-shadow: 0 2px 1px #333;
+}
+
+/**********************************
+* DATA
+***********************************/
+#data {
+	width: 1024px;
+	margin: auto;
+	padding: 0;
+}
+#container, #container2 {
+	height: 200px;
+}
+
+/**********************************
+* ANOMALIE
+***********************************/
+#anomalie {
+	width: 1024px;
+	margin: auto;
+	padding: 0;
+}
+#anomalie h1 {
+	text-align: center;
+}
+#anomalie table {
+	margin: auto;
+	width: 75%;
+	background: rgba(255, 255, 255, 0.5);
+	border-collapse: collapse;
+	
+	box-shadow: 0 0 5px #000;
+}
+#anomalie th {
+	height: 30px;
+	padding: 5px;
+	background: #FFF;
+	border-bottom: 1px solid #000;
+}
+tbody {
+	border: none;
+}
+#anomalie tr:nth-child(2n) {
+	background-color: rgba(220, 220, 255, 0.5);
+	padding:1px;
+}
+#anomalie tr:nth-child(2n+1) {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding:1px;
+}
+#anomalie td {
+	padding: 10px;
+}
+.col1 {width: 15%;}
+.col2 {width: 60%;}
+.col3 {width: 10%;}
+.col4 {width: 15%;}
+
+/**********************************
+* VISITES
+***********************************/
+#visite {
+	width: 1024px;
+	margin: auto;
+}
+#visite .label {
+	width: 200px;
+}
+#visite .input {
+	width: 100px;
+	height: 25px;
+	padding: 0;
+	margin-top: -5px;
+	margin-right: 10px;
+	text-align: center;
+}
+#visite .submit {
+	width: 80px;
+	height: 31px;
+	margin-top: -6px;
+}
+#visite table {
+	width: 50%;
+	background: rgba(255, 255, 255, 0.5);
+	border-collapse: collapse;
+	text-align: left;
+	box-shadow: 0 0 5px #000;
+}
+#visite th {
+	height: 30px;
+	padding-left: 10px;
+	background: #FFF;
+	border-bottom: 1px solid #000;
+}
+#visite tr:nth-child(2n) {
+	background-color: rgba(220, 220, 255, 0.5);
+	padding:1px;
+}
+#visite tr:nth-child(2n+1) {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding:1px;
+}
+#visite td {
+	padding: 10px;
+}
+/**********************************
+* COMPTE
+***********************************/
+#compte {
+	width: 1024px;
+	margin: auto;
+}
+#compte .label {
+	width: 200px;
+}
+#compte .input {
+	width: 200px;
+	height: 25px;
+	margin-top: -5px;
+	padding-left: 5px;
+}
+#compte .submit {
+	width: 200px;
+	height: 30px;
+	margin-left: 100px;
+}
+
+/**********************************
+* VALIDER LES COMPTES
+***********************************/
+#valider {
+	width: 1024px;
+	margin: auto;
+}
+.nomPrenom {
+	display: block;
+	width: 170px;
+	margin: 0;
+	padding: 0;
+}
+.valid {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#validImg {
+	height: 13px;
+	width: 16px;
+	margin-top: 5px;
+	padding-top: 6px;
+	padding-bottom: 5px;
+	padding-left: 4px;
+	padding-right: 4px;
+	background: #888;
+	
+	border-radius: 14px;
+	transition: background ease-out 0.2s;
+}
+#validImg:hover {
+	background: #FFF;
+	
+	box-shadow: 0 0 5px #333;
+}
+
+/**********************************
+* CONFIGURATION
+***********************************/
+#configuration {
+	width: 1024px;
+	margin: auto;
+}
+#configuation form {
+	display: block;
+	width: 500px;
+	margin: auto;
+}
+#configuration a {
+	margin-left: 10px;
+}
+
+
+/**************************************
+*Reponsive
+***************************************/
+.resp{
+	margin-top:32px;
+}
